@@ -1,0 +1,331 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    background: #EEEEEE;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+.top {
+    width: 100%;
+    height: 100px;
+    background:bottom;
+}
+
+.top-bar {
+    width: 50%;
+    height: 100px;
+    margin: 0px 0px 0px 170px;
+    float: left;
+}
+
+.top .top-bar img {
+    margin-top: 10px;
+    float: left;
+    padding-right: 15px;
+}
+
+
+#name-manage {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    float: left;
+    width: 600px;
+    padding-top: 15px;
+    margin-left: 117px;
+    margin-top: -80px;
+}
+
+#school-name {
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: -35px 0px 0px 133px;
+}
+
+#logouneti {
+    width: 100px;
+    height: 80px;
+}
+
+.content {
+    width: 80%;
+    height: auto;
+    background: white;
+    margin-left: 180px;
+    margin-right: 180px;
+    position: relative;
+}
+
+.service-lecturers {
+    margin: 0px 0px 0px 180px;
+}
+
+.content-bottom {
+    width: 80px;
+    height: 5px;
+    margin-bottom: 25px;
+    background: red;
+    margin-top: -20px;
+}
+
+.content-a-icon {
+    color: black;
+}
+
+.content-icon {
+    width: 20%;
+    height: 200px;
+    background: #EEEEEE;
+    float: left;
+    margin: 30px 15px;
+}
+
+.content-icon li {
+    list-style: none;
+    text-align: center;
+}
+
+.content-icon li img {
+    padding-top: 20px;
+}
+
+.service {
+    width: 100%;
+    height: 500px;
+    background: #EEEEEE;
+}
+
+.service-student {
+    width: 350px;
+    height: 360px;
+    background: red;
+}
+
+.service-lecturers .information {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.information li {
+    list-style: none;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: red;
+    padding-top: 20px;
+    margin-left: 126px;
+}
+
+.service-student-center {
+    width: 20%;
+    height: 350px;
+    background: white;
+    margin-left: 130px;
+    float: left;
+}
+
+.foter-tutorial {
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.tutorial-treatment {
+    width: 60%;
+    height: 350px;
+    margin-left: 330px;
+}
+
+.tutorial-treatment-one {
+    width: 41%;
+    height: 40%;
+    border-radius: 30px;
+    float: left;
+    margin: 10px 35px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.receive-account {
+    width: 41%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    float: left;
+    background: #00CCFF;
+}
+
+.receive-account li {
+    list-style: none;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.contact {
+    width: 100%;
+    height: 100px;
+    background: #EEEEEE;
+}
+
+.contact-content {
+    margin-left: 180px;
+}
+
+.poster {
+    background: #00CCFF;
+    font-weight: bold;
+    height: 130px;
+    width: 100%;
+    position: relative;
+}
+
+.poster-content {
+    padding-top: 10px;
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left: 100px;
+}
+
+.poster-content li a {
+    text-decoration: none;
+    color: black;
+}
+
+.poster-content li div {
+    padding-top: 5px;
+    color: black;
+    float: left;
+}
+
+.poster-addpress {
+    float: right;
+    height: 100%;
+    width: 30%;
+    color: black;
+    line-height: 50px;
+    margin-right: 30px;
+}
+
+.top-contact-mxh {
+    float: right;
+    margin: 28px 99px;
+}
+
+.top-contact-mxh li {
+    list-style: none;
+}
+
+.top-contact-mxh li a img {
+    width: 30px;
+    height: 40px;
+}
+
+#menu {
+    background-color: cadetblue;
+    margin-top: 0px;
+    height: 40px;
+    width: auto;
+
+}
+
+#menu li {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding-top: 10px;
+    height: 30px;
+}
+
+#menu #homepage {
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu > .homepage-menu {
+    color: white;
+}
+
+#menu > .homepage-menu:hover {
+    color: yellow;
+    background: #115143;
+    height: 30px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    width: auto;
+    height: 30px;
+    z-index: 10;
+}
+
+#menu  li:hover .sub-menu {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -40px;
+}
+
+.sub-menu button li a {
+    text-decoration: none;
+    text-align: left;
+    height: 30px;
+    color: black;
+}
+
+.sub-menu button:hover {
+    background: whitesmoke;
+}
+
+.sub-menu button {
+    width: 280px;
+    background: white;
+    border: 1px solid beige;
+}
+
+#menu .menu-dmsp {
+    background: yellow;
+    color: black;
+    width: auto;
+    font-size: 20px;
+}
+
+#menu ul {
+    background: white;
+    border: 1px solid whitesmoke;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    display: block;
+}
+
+.lk-facebook {
+    position: absolute;
+    display: none;
+}
+
+.fa-lg ul li:hover {
+    display: inline;
+}
+
+.lk-facebook li {
+    list-style: none;
+    background: black;
+    width: 200px;
+    height: 150px;
+}
+
+.lk-facebook li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}

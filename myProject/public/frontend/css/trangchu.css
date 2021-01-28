@@ -1,0 +1,276 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    background: #EEEEEE;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+    background: bottom;
+}
+
+.top-bar {
+    width: 50%;
+    height: 100px;
+    margin: 0px 0px 0px 170px;
+    float: left;
+}
+
+.top .top-bar img {
+    margin-top: 10px;
+    float: left;
+    padding-right: 15px;
+}
+
+#name-manage {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    float: left;
+    width: 600px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    color: black;
+    margin: -86px 0px 0px 120px;
+}
+
+#school-name {
+    float: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    margin: -40px 0px 0px 125px;
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    background: #245d7c;
+}
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+ul.menu_menu li {
+    line-height: 50px;
+    display: block;
+    width: 140px;
+    border-right: 1px solid gray;
+}
+
+ul.menu_menu li #homepage {
+    border-left: 1px solid gray;
+}
+
+ul.menu_menu li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+ul.menu_menu li a:hover {
+    background: red;
+}
+
+.view {
+    width: 90%;
+    margin: auto;
+}
+
+#logouneti {
+    width: 100px;
+    height: 80px;
+}
+
+.content {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background: white;
+    margin-left: 180px;
+    margin-right: 180px;
+    position: relative;
+}
+
+.service-lecturers {}
+
+.content-bottom {
+    width: 370px;
+    height: 3px;
+    margin-bottom: 5px;
+    background: red;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+
+.content-icon {
+    width: 20%;
+    height: 200px;
+    background: #EEEEEE;
+    float: left;
+    margin: 30px 15px;
+}
+
+.content-icon li {
+    list-style: none;
+    text-align: center;
+}
+
+.content-icon li img {
+    padding-top: 20px;
+    margin-left: 55px;
+}
+
+.content-a-icon {
+    color: black;
+}
+
+.service {
+    width: 100%;
+    height: 500px;
+    background: #EEEEEE;
+    margin-left: -41px;
+}
+
+.service .content_botom-botom {
+    margin-bottom: 20px;
+}
+
+.service-student {
+    width: 350px;
+    height: 360px;
+    background: red;
+}
+
+.service-lecturers .information {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.information li {
+    list-style: none;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: red;
+    padding-top: 20px;
+}
+
+.service-student-center {
+    width: 20%;
+    height: 384px;
+    background: white;
+    margin-left: 108px;
+    float: left;
+}
+
+.foter-tutorial {
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.tutorial-treatment {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 330px; */
+}
+
+.tutorial-treatment-one {
+    width: 37%;
+    height: 40%;
+    border-radius: 30px;
+    float: left;
+    margin: 10px 35px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.receive-account {
+    width: 32%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    float: left;
+    background: #66FF00;
+}
+
+.receive-account li {
+    list-style: none;
+    font-size: 100px;
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    height: 100px;
+    background: #EEEEEE;
+}
+
+.contact-content {
+    margin-left: 180px;
+}
+
+.poster {
+    background: #00CCFF;
+    font-weight: bold;
+    height: 210px;
+    width: 100%;
+    position: relative;
+}
+
+.poster-content {
+    padding-top: 10px;
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left: 100px;
+}
+
+.poster-content li a {
+    text-decoration: none;
+    color: black;
+}
+
+.poster-content li div {
+    padding-top: 5px;
+    color: black;
+    float: left;
+}
+
+.poster-addpress {
+    float: right;
+    height: 100%;
+    width: 30%;
+    color: black;
+    line-height: 50px;
+    margin-right: 30px;
+}
+
+.top-contact-mxh {
+    float: right;
+    margin: 20px 190px;
+}
+
+.top-contact-mxh li {
+    list-style: none;
+}
+
+.top-contact-mxh li a img {
+    width: 30px;
+    height: 40px;
+}
